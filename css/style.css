@@ -2032,3 +2032,9 @@ gap:7rem;
 .nav-bar-div2 ul li a{
   color: white;
 }
+
+.Products-nav2-heading ,.nav2-left-side button{
+  @media (max-width:730px) {
+    display: none;
+  }
+}
