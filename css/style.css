@@ -274,6 +274,9 @@ background-size: cover;
     display: block;
   }
   
+  .dropdown li a{
+    color: white;
+  }
  
   
   /* light and dark theme toggle */
@@ -352,7 +355,7 @@ main h1:nth-child(2){
 }
 
 #Home {
-  height: 100vh;
+  height: 105vh;
   width: 100%;
   color: white;
   background: linear-gradient(to top right, #1F2630 0%, #2E2F41 60%, #CD897E 100%);
@@ -1075,6 +1078,8 @@ height: 115vh;
     }
 }
 
+
+
 .Products-nav2{
   @media (max-width:730px) {
     display: none;
@@ -1094,6 +1099,12 @@ height: 115vh;
   justify-content: space-between;
   align-items: center;
   margin-bottom: -20px;
+  }
+}
+
+.Products-nav2 li a{
+  @media (max-width:730px) {
+    display: none;
   }
 }
 
@@ -2009,4 +2020,15 @@ gap:7rem;
   @media (max-width:349px) {
     display: none;
   }
+}
+
+
+.left-nav li a{
+  @media (max-width:730px) {
+    display: none;
+  }
+}
+
+.nav-bar-div2 ul li a{
+  color: white;
 }
